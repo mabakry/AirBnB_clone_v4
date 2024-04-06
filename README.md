@@ -26,13 +26,13 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 * Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
-* to setup database:
-  * open mySQL terminal: `sudo mysql`
-  * setup database: `source ./setup_mysql_dev.sql`
-  * load dummy entries: `source./web_flask/100-dump.sql`
-  * close mySQL terminal: `exit`
-* run the following command to load
-``` bash
+* To setup database:
+  * Open mySQL terminal: `sudo mysql`
+  * Setup database: `source ./setup_mysql_dev.sql`
+  * Load dummy entries: `source./web_flask/100-dump.sql`
+  * Close mySQL terminal: `exit`
+* Run the following command to load
+```bash
 HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.<FILE-NAME>
 ```
 
